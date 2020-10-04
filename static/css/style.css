@@ -1,39 +1,42 @@
 html,
+#mapid,
 body,
-#mapid {
+
+html {
   height: 100%;
-  padding: 0;
-  margin: 0;
 }
 
 .legend {
-  padding: 10px;
-  font-family: Sanchez, serif;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 18px;
-  color: #555;
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  line-height: 20px;
+  color: black;
+  float: center;
 }
 
-.legend .low {
-  color: #ec8a2e;
+.legend i {
+  width: 12px;
+  height: 12px;
+  float: left;
+  margin-right: 20px;
+  background:cornflowerblue;
+  opacity: 1;
 }
 
-.legend .empty {
-  color: #a0353a;
+.info {
+  padding: 8px 10px;
+  font: 10px/20px Comic, sans-serif;
+  float: right;
+  text-align: center;
+  align-content: center;
+  background:cornflowerblue;
+  border-radius: 10px;
 }
 
-.legend .coming-soon {
-  color: #f4ba48;
-}
-
-.legend .healthy {
-  color: #1b904f;
-}
-
-.legend .out-of-order {
-  color: #007dff;
+.leaflet-control-layers-expanded {
+  padding: 8px 10px;
+  font: 10px/20px Comic, sans-serif;
+  float: right;
+  text-align: left;
+  align-content: center;
+  background:cornflowerblue;
+  border-radius: 10px;
 }
